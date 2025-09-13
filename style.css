@@ -49,7 +49,7 @@ a {
     font-weight: 600;
 }
 
-.secondary-text, li {
+.secondary-text, li, adv-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -123,4 +123,63 @@ a {
 .text-under-image {
     color: grey;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 112px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bottom {
+    padding: 100px;
+}
+
+.adv-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 36px 12px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9F8FA;
+}
+
+.adv-header {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.adv-button {
+    background-color: inherit;
+    color: #F9F8FA;
+    border-radius: 5px;
+    border: 2px solid #F9F8FA;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
